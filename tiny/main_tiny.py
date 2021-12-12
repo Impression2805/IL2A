@@ -19,7 +19,7 @@ parser.add_argument('--print_freq', default=10, type=int, help='print frequency 
 parser.add_argument('--data_name', default='tiny', type=str, help='Dataset name to use')
 parser.add_argument('--total_nc', default=200, type=int, help='class number for the dataset')
 parser.add_argument('--fg_nc', default=100, type=int, help='the number of classes in first task')
-parser.add_argument('--task_num', default=10, type=int, help='the number of incremental steps')
+parser.add_argument('--task_num', default=5, type=int, help='the number of incremental steps')
 parser.add_argument('--learning_rate', default=0.001, type=float, help='initial learning rate')
 parser.add_argument('--seman_weight', default=10.0, type=float, help='semanAug loss weight')
 parser.add_argument('--mix_times', default=1, type=int, help='classAug mix time')
