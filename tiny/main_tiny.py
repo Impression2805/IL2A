@@ -14,7 +14,7 @@ from data_manager_tiny import *
 
 parser = argparse.ArgumentParser(description='Class Incremental Learning via Dual Augmentation')
 parser.add_argument('--epochs', default=101, type=int, help='Total number of epochs to run')
-parser.add_argument('--batch_size', default=64, type=int, help='Batch size for training')
+parser.add_argument('--batch_size', default=100, type=int, help='Batch size for training')
 parser.add_argument('--print_freq', default=10, type=int, help='print frequency (default: 10)')
 parser.add_argument('--data_name', default='tiny', type=str, help='Dataset name to use')
 parser.add_argument('--total_nc', default=200, type=int, help='class number for the dataset')
