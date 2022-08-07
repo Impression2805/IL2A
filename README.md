@@ -1,7 +1,7 @@
 ## IL2A - Official PyTorch Implementation
 ![](./framework.png)
 
-### [NeurIPS2021] Prototype Augmentation and Self-Supervision for Incremental Learning
+### [NeurIPS2021] Class-Incremental Learning via Dual Augmentation
 Fei Zhu, Zhen Cheng, Xu-Yao Zhang, Cheng-Lin Liu<br>
 [Paper](https://proceedings.neurips.cc/paper/2021/file/77ee3bc58ce560b86c2b59363281e914-Paper.pdf)
 ### Usage 
